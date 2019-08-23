@@ -8,8 +8,7 @@ str_aux="";
 n_elem = 0
 search_for_1 = "$Nodes";
 search_for_2 = "$Elements";
-mesh_file="dois_tetraedros_media.msh";
-
+mesh_file="dois_tetraedros.msh";
 
 #leitura do arquivo .msh para extracao da matriz de coordenadas e topologia
 fp = fopen(mesh_file, 'r');
